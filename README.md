@@ -8,5 +8,5 @@ JavaScript: Implements form validation to ensure data integrity.
 
 Files Included
 index.html: Contains the HTML structure of the login form.
-style.css: Defines the styles for the login form.
-script.js: Handles form validation using JavaScript.
+cass1.css: Defines the styles for the login form.
+text.js: Handles form validation using JavaScript.
