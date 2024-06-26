@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" type="text/css" href="css1.css">
+
+        <script type="text/javascript" src="text.js"></script>
+        <style>
+            body{
+                color: black;
+                background-color:navajowhite;
+                font-family:serif;
+            }
+            table{
+                padding: 10px 9px 15px 10px;
+                border-style: solid;
+          
+            }
+        </style>
+    </head>
+    <body>
+        <form name="s1" method="post" action="Submitted.html" onsubmit="return text()">
+            <center>
+                <table>
+                    <tr>
+                    <h1>Registration Form</h1>
+                    </tr>
+                    <tr>
+                        <td>Enter the first name&nbsp;</td>
+                        <td>:</td>
+                        <td><input type="text" placeholder="" id="fname"> </td>
+                    </tr>
+                    <tr>
+                        <td>Enter the Last name&nbsp;</td>
+                        <td>:</td>
+                        <td><input type="text" placeholder="" id="lname"> </td>
+                    </tr>
+                   
+                    
+                    <tr>
+                        <td>Date of Birth&nbsp;</td>
+                        <td>:</td>
+                        <td><input type="text" placeholder="DD-MM-YYYY" id="dob"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Phone number</td>
+                        <td>:</td>
+                        <td><input type="number" placeholder="+91-000-000-0000" id="phone"> </td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>:</td>
+                        <td><input type="text" placeholder="Door No., Street name" id="add"> </td>
+                    </tr>
+                    <tr>
+                         <td>Select city&nbsp;</td>
+                        <td>:</td>
+                        <td>
+                            <select name="city" id="c1">
+                                <option value="che">Chennai</option>
+                                <option value="cbe">Coimbatore</option>
+                                <option value="mdu">Madurai</option>
+                                <option value="tjo">Tanjore</option>
+                                <option value="dgl">dindigul</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <tr>
+                        <td>State:</td>
+                        <td>:</td>
+                        <td><input type="text" placeholder=" " id="State"> </td>
+                    </tr>
+                        <td>Enter the Gender&nbsp;:</td>
+                        <td>:</td>
+                        <td>
+                        <input type="Radio" name="m">Male<br>
+                        <input type="Radio" name="f">Female<br>
+                        <input type="Radio" name="o">other<br>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>Enter Email&nbsp;</td>
+                        <td>:</td>
+
+                        <td><input type="text" placeholder="example@gmail.com" id="e1"> </td>
+                    </tr>
+                    <tr>
+                        <td>Enter the password&nbsp;</td>
+                        <td>:</td>
+
+                        <td><input type="text" name="password" id="psw"> </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm the password&nbsp;</td>
+                        <td>:</td>
+                        <td><input type="text" placeholder="Confirm password" name="password" id="psw1"> </td>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td><a href="Submitted.html"><button>Submit</button></td>
+                    </tr>
+                    
+                </table>
+                
+            </center>
+        </form>
+    </body>
+</html>
